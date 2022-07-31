@@ -1,0 +1,6 @@
+
+{
+    "categories": [
+    {"name":"Ciencia Ficcion","count":"link1","description":"Descripcion de una categoria"},
+    {"name":"Educacion","count":"link2","description":"Descripcion de una categoria"}]
+}

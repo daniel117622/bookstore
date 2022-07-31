@@ -1,0 +1,25 @@
+extends layouts/main.pug
+
+
+block content 
+    .container 
+        p Lista de libros
+
+block navbar
+    p Barra de navegacion
+
+block sidebar
+    ul.main-nav.nav.navbar-nav
+        li.active
+            a(href='#') Inicio
+        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+        li
+            a(href='#') Compra de libros
+        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+        li
+            a(href='#') Renta
+        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+        li
+            a(href='#') Ingreso de saldo
+        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+

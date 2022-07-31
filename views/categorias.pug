@@ -1,0 +1,13 @@
+extends layouts/main.pug
+
+block content 
+    .container
+        - const items = data
+        ul
+            each item in items 
+                - var name = item.name 
+                - var desc = item.description 
+                
+                li
+                    span= name
+                    span= desc
