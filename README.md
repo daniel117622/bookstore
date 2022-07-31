@@ -1,2 +1,4 @@
-# bookstore
-proyecto personal
+Dependencias:
+  express
+  body-parser
+  pug
